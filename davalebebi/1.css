@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container {
+    margin-left: 200px;
+    width: 80%;
+    padding: 20px 0;
+}
+
+.text {
+    width: 30%;
+    float: left;
+}
+.text h2 {
+    font-size: 24px;
+}
+.text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    background-color: #d4b24c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.images {
+    width: 800px;
+    float: right;
+}
+.images img {
+    width: 32%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.review {
+    margin-bottom: 20px;
+}
+.review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.review-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.review-text p {
+    font-size: 14px;
+}
+.arrows {
+    clear: both;
+    margin-top: 20px;
+}
+.arrow {
+    background-color: #d4b24c;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
