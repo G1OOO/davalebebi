@@ -1,113 +1,74 @@
 body {
-         font-family: Arial, sans-serif;
-         background-color: #f5f8f7;
+        text-align: center;
+         font-family: 'Arial', sans-serif;
          margin: 0;
          padding: 0;
+         background-color: #fff;
+         color: #333;
      }
      .container {
-         width: 90%;
-         margin: 0 auto;
-         padding: 20px 0;
+         display: flex;
+         justify-content: space-between;
+         padding: 20px;
      }
-     .header, .why-choose-us, .footer {
+     .main-panel {
+         width: 60%;
          text-align: center;
-         margin-bottom: 40px;
      }
-     .header h1 {
+     .right-panel {
+         width: 40%;
+         padding: 20px;
+     }
+     .right-panel h1 {
          font-size: 24px;
-         margin-bottom: 10px;
+         margin: 0;
      }
-     .header p {
-         font-size: 14px;
-         color: #666;
-         margin-bottom: 20px;
+     .right-panel .price {
+         font-size: 20px;
+         margin: 10px 0;
      }
-     .header .explore-btn {
-         background-color: #000;
+     .right-panel .price .original-price {
+         text-decoration: line-through;
+         color: #999;
+     }
+     .right-panel .price .discounted-price {
+         color: #e60000;
+     }
+     .right-panel .color-options {
+         margin: 20px 0;
+     }
+     .right-panel .color-options div {
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         margin-right: 10px;
+         border: 1px solid #ddd;
+     }
+     .right-panel .add-to-bag {
+         background-color: #d89b72;
          color: #fff;
          padding: 10px 20px;
          border: none;
-         border-radius: 5px;
-     }
-     .products {
-         display: flex;
-         justify-content: space-around;
-         margin-bottom: 40px;
-     }
-     .product {
-         text-align: center;
-     }
-     .product img {
-         width: 150px;
-         height: 150px;
-         border-radius: 10px;
-         margin-bottom: 10px;
-     }
-     .product h3 {
+         cursor: pointer;
          font-size: 16px;
-         margin-bottom: 5px;
      }
-     .product p {
-         font-size: 14px;
-         color: #666;
+     .right-panel .share {
+         margin-top: 20px;
      }
-     .why-choose-us h2 {
-         font-size: 24px;
-         margin-bottom: 20px;
-     }
-     .why-choose-us p {
-         font-size: 14px;
-         color: #666;
-         margin-bottom: 20px;
-     }
-     .features {
+     .header {
          display: flex;
-         justify-content: space-around;
-         margin-bottom: 40px;
+         justify-content: space-between;
+         padding: 20px;
+         border-bottom: 1px solid #ddd;
      }
-     .feature {
-         text-align: center;
-         width: 20%;
-     }
-     .feature i {
+     .header .logo {
          font-size: 24px;
-         color: #000;
-         margin-bottom: 10px;
+         font-weight: bold;
      }
-     .feature h3 {
-         font-size: 16px;
-         margin-bottom: 5px;
-     }
-     .feature p {
-         font-size: 14px;
-         color: #666;
-     }
-     .footer {
+     .header .menu {
          display: flex;
-         justify-content: space-around;
          align-items: center;
      }
-     .footer img {
-         width: 200px;
-         height: 200px;
-         border-radius: 10px;
-     }
-     .footer .text {
-         width: 40%;
-     }
-     .footer .text h2 {
-         font-size: 24px;
-         margin-bottom: 20px;
-     }
-     .footer .text p {
-         font-size: 14px;
-         color: #666;
-         margin-bottom: 20px;
-     }
-     .footer .explore-btn {
-         background-color: #000;
-         color: #fff;
-         padding: 10px 20px;
-         border: none;
-         border-radius: 5px;
+     .header .menu i {
+         margin-left: 20px;
      }

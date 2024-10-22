@@ -1,75 +1,68 @@
 body {
-         font-family: Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          margin: 0;
          padding: 0;
-     }
-     .header {
-         text-align: center;
-         padding: 20px;
-     }
-     .header h1 {
-         color: #4A148C;
-     }
-     .header p {
+         background-color: #f9f9f9;
          color: #333;
      }
-     .projects {
+     .container {
          display: flex;
-         justify-content: center;
+         justify-content: space-between;
+         align-items: center;
          padding: 20px;
      }
-     .project {
+     .left-section {
+         width: 50%;
+         padding: 20px;
+     }
+     .right-section {
+         width: 50%;
          text-align: center;
-         margin: 0 10px;
      }
-     .project img {
-         width: 100%;
-         max-width: 200px;
-         border-radius: 10px;
+     .right-section img {
+        border-radius: 50px;
      }
-     .project-name {
+     .title {
+         font-size: 36px;
          font-weight: bold;
-         margin-top: 10px;
+         margin-bottom: 20px;
      }
-     .project-description {
-         color: #666;
+     .price {
+         font-size: 24px;
+         margin-bottom: 20px;
      }
-     .services {
-         background-color: #583E7D;
+     .description {
+         font-size: 16px;
+         margin-bottom: 20px;
+     }
+     .color {
+         font-size: 14px;
+         margin-bottom: 20px;
+     }
+     .add-to-cart {
+         display: flex;
+         align-items: center;
+     }
+     .add-to-cart button {
+        border-radius: 25px;
+         background-color: #00bfff;
          color: white;
-         padding: 40px 20px;
-         text-align: center;
-     }
-     .services .service {
-         display: inline-block;
-         width: 22%;
-         margin: 0 1%;
-     }
-     .services .service i {
-         font-size: 50px;
-         margin-bottom: 10px;
-     }
-     .services .service h3 {
-         margin: 10px 0;
+         border: none;
+         padding: 10px 20px;
+         font-size: 14px;
+         margin-right: 10px;
      }
      .footer {
+         display: flex;
+         justify-content: space-between;
          padding: 20px;
-         text-align: center;
+         font-size: 14px;
      }
-     .footer .column {
-         display: inline-block;
-         width: 45%;
-         vertical-align: top;
-         text-align: left;
+     .footer .social {
+         display: flex;
+         gap: 10px;
      }
-     .footer .column h3 {
-         border-bottom: 2px solid #4A148C;
-         padding-bottom: 5px;
-     }
-     .footer .column p {
-         color: #666;
-     }
-     .footer .column .step {
-         font-weight: bold;
-         color: #4A148C;
+     .footer .social a {
+         color: #333;
+         text-decoration: none;
      }
